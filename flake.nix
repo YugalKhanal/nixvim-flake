@@ -8,7 +8,7 @@
 
   outputs = { self, nixpkgs, home-manager, ... }: {
     homeModules = {
-      nixvim = import ./modules/default.nix;
+      nixvim = import ./modules/nixvim/default.nix;
     };
   };
 }
