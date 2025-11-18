@@ -7,13 +7,14 @@
       plugins = {
         lualine = {
           enable = true;
-          settings = {
-            theme = lib.mkDefault (config.stylix.base16.name or "gruvbox");
-          };
+          # settings = {
+          #   theme = lib.mkDefault (config.stylix.base16.name or "gruvbox");
+          # };
         };
       };
 
-      colorscheme = lib.mkDefault (config.stylix.base16.name or "gruvbox");
+      # colorscheme = lib.mkDefault (config.stylix.base16.name or "gruvbox");
+      colorscheme = "gruvbox";
 
       highlight = {
         Normal = { fg = config.stylix.base16.colors.base05 or "#ebdbb2"; bg = config.stylix.base16.colors.base00 or "#282828"; };
