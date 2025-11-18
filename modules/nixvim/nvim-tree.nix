@@ -3,7 +3,6 @@
     config = {
       plugins.nvim-tree = {
         enable = true;
-	mini.enable = true;
         settings = {
           filters = {
             dotfiles = false;
@@ -17,6 +16,7 @@
           };
         };
       };
+      plugins.mini.enable = true;
 
       keymaps = [
         { mode = "n"; key = "<C-n>"; action = "<CMD>NvimTreeToggle<CR>"; options.desc = "Toggle NvimTree"; }
