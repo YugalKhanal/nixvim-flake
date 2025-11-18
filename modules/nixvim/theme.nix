@@ -3,8 +3,9 @@
 {
   programs.nixvim = {
     config = {
-      colorschemes.gruvbox = { enable = true; };
+      #colorschemes.gruvbox = { enable = true; };
       plugins = {
+        gruvbox = {enable = true;};
         lualine = {
           enable = true;
           settings = {
