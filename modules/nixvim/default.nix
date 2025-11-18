@@ -28,6 +28,10 @@
     enable = true;
     viAlias = true;
     vimAlias = true;
+
+    extraPlugins = with pkgs.vimPlugins;[
+      gruvbox-community
+    ];
   };
 
   programs.neovim.enable = true;
