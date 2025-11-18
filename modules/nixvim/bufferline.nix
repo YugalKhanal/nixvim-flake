@@ -4,6 +4,7 @@
       plugins.bufferline = {
         enable = true;
       };
+      plugins.mini.enable = true;
 
       keymaps = [
         { mode = "n"; key = "<Tab>"; action = "<Cmd>BufferLineCycleNext<CR>"; options.desc = "Next buffer"; }

@@ -15,6 +15,7 @@
             ignore = false;
           };
         };
+	mini.enable = true;
       };
 
       keymaps = [
