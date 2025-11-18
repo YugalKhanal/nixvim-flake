@@ -32,6 +32,7 @@
 
     extraPlugins = with pkgs.vimPlugins;[
       gruvbox-community
+      nvim-web-devicons
     ];
   };
 
