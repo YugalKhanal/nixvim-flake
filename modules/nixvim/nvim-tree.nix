@@ -1,21 +1,27 @@
 {
   programs.nixvim = {
     config = {
-      plugins.nvim-tree = {
-        enable = true;
-        settings = {
-          filters = {
-            dotfiles = false;
-          };
-          view = {
-            side = "left";
-          };
-          git = {
-            enable = true;
-            ignore = false;
+      plugins = {
+        nvim-tree = {
+          enable = true;
+          settings = {
+            filters = {
+              dotfiles = false;
+            };
+            view = {
+              side = "left";
+            };
+            git = {
+              enable = true;
+              ignore = false;
+            };
           };
         };
-      };
+        mini = {
+          enable = true;
+          mockDevicons = true;
+        };
+      }; 
       plugins.mini.enable = true;
 
       keymaps = [

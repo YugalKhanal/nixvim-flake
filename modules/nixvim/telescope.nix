@@ -20,7 +20,10 @@
             };
           };
         };
-	mini.enable = true;
+        mini = {
+          enable = true;
+          mockDevicons = true;
+        };
         #nvim-web-devicons = {
         #  enable = true;
         #};

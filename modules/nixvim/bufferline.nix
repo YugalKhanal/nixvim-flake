@@ -1,10 +1,15 @@
 {
   programs.nixvim = {
     config = {
-      plugins.bufferline = {
-        enable = true;
+      plugins ={
+        bufferline = {
+          enable = true;
+        };
+        mini = {
+          enable = true;
+          mockDevicons = true;
+        };
       };
-      plugins.mini.enable = true;
 
       keymaps = [
         { mode = "n"; key = "<Tab>"; action = "<Cmd>BufferLineCycleNext<CR>"; options.desc = "Next buffer"; }
