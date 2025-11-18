@@ -3,6 +3,7 @@
     config = {
       plugins.nvim-tree = {
         enable = true;
+	mini.enable = true;
         settings = {
           filters = {
             dotfiles = false;
@@ -15,7 +16,6 @@
             ignore = false;
           };
         };
-	mini.enable = true;
       };
 
       keymaps = [
