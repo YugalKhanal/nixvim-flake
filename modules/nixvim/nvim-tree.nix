@@ -17,10 +17,6 @@
             };
           };
         };
-        mini = {
-          enable = true;
-          mockDevicons = true;
-        };
       }; 
 
       keymaps = [
