@@ -22,11 +22,7 @@
         };
         mini = {
           enable = true;
-          mockDevicons = true;
         };
-        #nvim-web-devicons = {
-        #  enable = true;
-        #};
       };
 
       keymaps = [
