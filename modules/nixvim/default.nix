@@ -34,6 +34,7 @@
 
     extraPlugins = with pkgs.vimPlugins;[
       gruvbox-community
+      mini-nvim
     ];
   };
 
