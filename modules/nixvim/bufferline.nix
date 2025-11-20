@@ -5,10 +5,6 @@
         bufferline = {
           enable = true;
         };
-        mini = {
-          enable = true;
-          mockDevicons = true;
-        };
       };
 
       keymaps = [
