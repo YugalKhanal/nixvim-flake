@@ -22,7 +22,6 @@
           mockDevicons = true;
         };
       }; 
-      plugins.mini.enable = true;
 
       keymaps = [
         { mode = "n"; key = "<C-n>"; action = "<CMD>NvimTreeToggle<CR>"; options.desc = "Toggle NvimTree"; }
