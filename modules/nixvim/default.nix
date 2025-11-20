@@ -30,8 +30,6 @@
     viAlias = true;
     vimAlias = true;
 
-    plugins.web-devicons.enable = false;
-
     extraPlugins = with pkgs.vimPlugins;[
       gruvbox-community
       mini-nvim
