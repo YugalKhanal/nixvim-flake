@@ -7,6 +7,7 @@
     ./completions.nix
     ./copilot.nix
     ./dashboard.nix
+    ./devicons.nix
     ./lazygit.nix
     ./leap.nix
     ./lsp-config.nix
